@@ -80,6 +80,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* About Section Styles */
 .about{
     padding: 130px;
@@ -132,5 +135,31 @@ main{
 .skill-des{
     color:#757575
 }
-
+/* Resume Section */
+.resume{
+    display: flex;
+    gap: 50px;
+}
+.resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume hr{
+    margin:20px;
+}
+.resume-item-des{
+    color: #474747;
+}
+.resume-item-ins{
+    color:#757575;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
 
